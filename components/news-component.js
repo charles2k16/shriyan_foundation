@@ -22,7 +22,7 @@ Vue.component('site-news', {
           image: 'assets/img/blog/10.png',
           title: 'Creating To Continuous Integration Test Work',
           link: 'blog-details.html',
-          excerpt: 'Sed perspiciatis unde omnis iste natus error...',
+          excerpt: '',
           date: '25 Dec 2020',
           tag: 'funding',
         },
@@ -36,7 +36,7 @@ Vue.component('site-news', {
           <div class="col-xl-6 offset-xl-3">
             <div class="section-title text-center mb-85">
               <h6><span><i class="fas fa-heart"></i></span> Latest News</h6>
-              <h2>Get Our Shriyan News & Events</h2>
+              <h2>Get Our Shriyan Foundation News & Events</h2>
             </div>
           </div>
         </div>
