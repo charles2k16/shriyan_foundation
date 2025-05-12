@@ -47,6 +47,15 @@ Vue.component('site-footer', {
               class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
               data-wow-delay=".7s">
               <div class="footer__widget fot__subscribe mb-30">
+
+    <div class="header-social">
+                <a href="blog-details.html#" style="font-size: 30px"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/shriyanfoundation_global?igsh=aDV1dHA0ZTV3Zm84" target="_blank" style="font-size: 30px"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@shriyanfoundationglobal?si=FdGsikwSrPpLz9ka" target="_blank" style="font-size: 30px"><i class="fab fa-youtube"></i></a>
+                <a href="blog-details.html#" style="font-size: 30px"><i class="fab fa-tiktok"></i></a>
+              </div>
+  <br />
+
                   <div class="copyright text-center">
                   <p>Copyright © 2025, <span>Shriyan Foundation</span>.</p>
                 </div>

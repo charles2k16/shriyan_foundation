@@ -5,7 +5,7 @@ Vue.component('site-news', {
         {
           image: 'assets/img/blog/08.png',
           title: 'Experts Global Digital Accessibility Developments',
-          link: 'blog-details.html',
+          link: '',
           excerpt: 'But I must explain to you how all this mistaken idea...',
           date: '25 Dec 2020',
           tag: null,
@@ -13,7 +13,7 @@ Vue.component('site-news', {
         {
           image: 'assets/img/blog/09.png',
           title: 'Standardizing & Beyonds Past Present Future',
-          link: 'blog-details.html',
+          link: '',
           excerpt: 'Sed perspiciatis unde omnis iste natus error...',
           date: '25 Dec 2020',
           tag: 'refugee',
@@ -21,7 +21,7 @@ Vue.component('site-news', {
         {
           image: 'assets/img/blog/10.png',
           title: 'Creating To Continuous Integration Test Work',
-          link: 'blog-details.html',
+          link: '',
           excerpt: '',
           date: '25 Dec 2020',
           tag: 'funding',
