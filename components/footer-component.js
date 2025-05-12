@@ -101,7 +101,7 @@ Vue.component('site-footer', {
             <div class="row align-items-center">
               <div class="col-xl-12">
                 <div class="copyright text-center">
-                  <p>Copyright © 2025, <span>Shriyan</span>.</p>
+                  <p>Copyright © 2025, v1 <span>Shriyan</span>.</p>
                 </div>
               </div>
             </div>
