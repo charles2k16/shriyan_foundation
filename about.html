@@ -39,383 +39,266 @@
   </head>
 
   <body>
-    <!-- preloader end  -->
-    <!-- header-area start -->
-    <header id="top-menu" class="transparent-head pt-20 pb-20">
-      <div class="main-header-area main-head-02 sticky-02">
-        <div class="container custom-container">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-xl-2 col-lg-2 col-md-6 col-6">
-              <div class="logo">
-                <a class="logo-img" href="index.html"
-                  ><img src="assets/img/logo/weblogo.png" alt="" style="min-width: 300px"
-                /></a>
-                <a class="logo-img-02 d-none" href="index.html"
-                  ><img src="assets/img/logo/weblogo.png" alt="" style="min-width: 300px"
-                /></a>
-              </div>
-            </div>
-            <div class="col-xl-7 col-lg-8 d-none d-lg-block text-right">
-              <div class="main-menu main-menu-02 pr-50 d-none d-lg-block">
-                <nav>
-                  <ul>
-                    <li>
-                      <a href="index.html#">Home </a>
-                    </li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li>
-                      <a href="index.html#"
-                        >Support <i class="far fa-chevron-down"></i
-                      ></a>
-                      <ul class="submenu">
-                        <li><a href="case.html">Support to a cause</a></li>
-                        <li><a href="case-2.html">Other ways to support</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="index.html#">Get Involved </a>
-                    </li>
-                    <!-- <li>
-                      <a href="index.html#"
-                        >Pages <i class="far fa-chevron-down"></i
-                      ></a>
-                      <ul class="submenu">
-                        <li><a href="events-list.html">Events List</a></li>
-                        <li><a href="events-grid.html">Events Grid</a></li>
-                        <li><a href="events-details.html">Events Details</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="gallery-2.html">Gallery Two</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="team-details.html">Team Details</a></li>
-                        <li><a href="donation.html">Donation Form</a></li>
-                        <li><a href="volunteer.html">Volunteer</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                      </ul>
-                    </li> -->
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div
-              class="col-xl-3 col-lg-1 col-md-6 col-6 d-flex align-items-center justify-content-end">
-              <div class="hamburger-menu mr-20 d-md-block d-lg-none">
-                <a href="javascript:void(0);">
-                  <i class="far fa-bars"></i>
-                </a>
-              </div>
+    <div id="app">
+      <site-header></site-header>
 
-              <div class="quote-btn d-none d-xl-inline-block">
-                <a href="contact.html" class="theme_btn theme_btn_bg"
-                  >Support <span><i class="fas fa-heart"></i></span
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header-area end -->
+      <site-sidebar></site-sidebar>
+      <div class="body-overlay"></div>
 
-    <!-- slide-bar start -->
-    <aside class="slide-bar">
-      <div class="close-mobile-menu">
-        <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
-      </div>
-
-      <!-- offset-sidebar start -->
-      <div class="offset-sidebar">
-        <div class="offset-widget offset-logo mb-30">
-          <a href="index.html">
-            <img src="assets/img/logo/header_logo_one.png" alt="logo" />
-          </a>
-        </div>
-        <div class="offset-widget mb-40">
-          <div class="info-widget">
-            <h4 class="offset-title mb-20">About Us</h4>
-            <p class="mb-30">
-              But I must explain to you how all this mistaken idea of denouncing pleasure
-              and praising pain was born and will give you a complete account of the
-              system and expound the actual teachings of the great explore
-            </p>
-            <a class="theme_btn theme_btn_bg" href="contact.html">Contact Us</a>
-          </div>
-        </div>
-        <div class="offset-widget mb-30 pr-10">
-          <div class="info-widget info-widget2">
-            <h4 class="offset-title mb-20">Contact Info</h4>
-            <p>
-              <i class="fal fa-address-book"></i> 23/A, Miranda City Likaoli Prikano, Dope
-            </p>
-            <p><i class="fal fa-phone"></i> +0989 7876 9865 9</p>
-            <p>
-              <i class="fal fa-envelope-open"></i>
-              <a
-                href="https://www.devsnews.com/cdn-cgi/l/email-protection"
-                class="__cf_email__"
-                data-cfemail="8ae3e4ece5caeff2ebe7fae6efa4e9e5e7"
-                >[email&#160;protected]</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- offset-sidebar end -->
-    </aside>
-    <div class="body-overlay"></div>
-    <!-- slide-bar end -->
-
-    <main>
-      <!--page-title-area start-->
-      <section
-        class="page-title-area"
-        style="background-image: url(assets/img/bg/08.jpg)">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-4 offset-xl-4">
-              <div class="page-title-wrapper text-center pt-125">
-                <div class="page-title-box">
-                  <h2 class="page-title">About Us</h2>
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <a href="index.html">Home <i class="far fa-chevron-right"></i></a>
-                    </li>
-                    <li><a href="about.html#">About Us</a></li>
-                  </ul>
+      <main>
+        <section
+          class="page-title-area"
+          style="background-image: url(assets/img/bg/08.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4 offset-xl-4">
+                <div class="page-title-wrapper text-center pt-125">
+                  <div class="page-title-box">
+                    <h2 class="page-title">About Us</h2>
+                    <ul class="breadcrumb-list">
+                      <li>
+                        <a href="index.html">Home <i class="far fa-chevron-right"></i></a>
+                      </li>
+                      <li><a href="about.html#">About Us</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!--page-title-area end-->
-      <!--about-us-area start-->
-      <section class="about-area pt-130 pb-70">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-12">
-              <div class="about-img-02 pos-rel">
+        </section>
+        <!--page-title-area end-->
+        <!--about-us-area start-->
+        <section class="about-area pt-130 pb-70">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="about-img-02 pos-rel">
+                  <div
+                    class="about-img-02__thumb-02 ml-100 wow fadeInUp2 animated"
+                    data-wow-delay=".1s">
+                    <!-- use a video tag -->
+                    <video
+                      width="350px"
+                      class="about-video"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                      src="assets/img/about/shriyan.mp4"
+                      type="video/mp4" />
+                  </div>
+                  <div
+                    class="experience-box heding-bg wow fadeInUp2 animated"
+                    data-wow-delay=".3s">
+                    <h1>2</h1>
+                    <h4 class="semi-02-title">Years Experience</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="about-wrap-04 mb-60 pl-40">
+                  <div
+                    class="section-title text-left mb-20 wow fadeInUp2 animated"
+                    data-wow-delay=".1s">
+                    <h6>
+                      <span><i class="fas fa-heart"></i></span> About Shriyan
+                    </h6>
+                    <h2>Lifting Communities Inspiring Change</h2>
+                  </div>
+                  <p class="mb-35">
+                    Shriyan Foundation, we are driven by a simple yet powerful belief:
+                    every child deserves the opportunity to dream, grow, and
+                    thrive—regardless of their background. Our mission is to empower
+                    children and young people by providing them with the essential
+                    resources they need to succeed in life and education. From school
+                    supplies and computers to sanitary pads and other basic necessities,
+                    we work to remove the barriers that hold potential back. By addressing
+                    these critical needs, we aim to create a level playing field where
+                    every young person has the tools, support, and hope needed to reach
+                    their full potential. We are not just building futures—we are
+                    nurturing tomorrow’s leaders, innovators, and change makers. Through
+                    our programs and partnerships, we are creating a world where no child
+                    is left behind, and where equity, access, and opportunity are not
+                    privileges, but rights. Join us in lighting the path forward—for a
+                    generation ready to rise.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--about-us-area end-->
+        <!--counter-area start-->
+        <section class="counter-area theme-bg pt-130 pb-60">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <div
-                  class="about-img-02__thumb-02 ml-100 wow fadeInUp2 animated"
+                  class="counetrs mb-30 text-center wow fadeInUp2 animated"
                   data-wow-delay=".1s">
-                  <!-- use a video tag -->
-                  <video
-                    width="350px"
-                    class="about-video"
-                    autoplay
-                    loop
-                    muted
-                    playsinline
-                    src="assets/img/about/shriyan.mp4"
-                    type="video/mp4" />
+                  <div class="counetrs__icon mb-20">
+                    <i class="flaticon-social-care"></i>
+                  </div>
+                  <h1><span class="counter">30</span></h1>
+                  <p>Volunteers</p>
                 </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <div
-                  class="experience-box heding-bg wow fadeInUp2 animated"
+                  class="counetrs mb-30 text-center wow fadeInUp2 animated"
                   data-wow-delay=".3s">
-                  <h1>2</h1>
-                  <h4 class="semi-02-title">Years Experience</h4>
+                  <div class="counetrs__icon mb-20">
+                    <i class="flaticon-donation"></i>
+                  </div>
+                  <h1><span class="counter">2</span></h1>
+                  <p>Global Partner</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                <div
+                  class="counetrs mb-30 text-center wow fadeInUp2 animated"
+                  data-wow-delay=".5s">
+                  <div class="counetrs__icon mb-20"><i class="flaticon-charity"></i></div>
+                  <h1><span class="counter">3</span></h1>
+                  <p>Communities supported</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                <div
+                  class="counetrs mb-30 text-center wow fadeInUp2 animated"
+                  data-wow-delay=".7s">
+                  <div class="counetrs__icon mb-20">
+                    <i class="flaticon-community"></i>
+                  </div>
+                  <h1><span class="counter">7</span></h1>
+                  <p>Team Members</p>
                 </div>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-12">
-              <div class="about-wrap-04 mb-60 pl-40">
+          </div>
+        </section>
+        <!--counter-area end-->
+        <!--what-we-area start-->
+        <section class="what-we-area grey-bg2 pos-rel pt-125 pb-95">
+          <div
+            class="right-help"
+            style="background-image: url(assets/img/about/group.jpg)"></div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="about-wrapper we-wrapper mb-30">
+                  <div
+                    class="section-title text-left mb-20 wow fadeInUp2 animated"
+                    data-wow-delay=".1s">
+                    <h6>
+                      <span><i class="fas fa-heart"></i></span> Our Mission and Vision
+                    </h6>
+                    <h2>A Concrete Help For A Better & kind World</h2>
+                  </div>
+                  <p class="wow fadeInUp2 animated" data-wow-delay=".2s">
+                    Our mission is to empower children and youths by providing them with
+                    the essential resources they need to succeed, including school
+                    supplies, computers, sanitary pads, and other basic necessities.
+                  </p>
+                  <ul
+                    class="about_list mt-30 mb-25 wow fadeInUp2 animated"
+                    data-wow-delay=".3s">
+                    <li>
+                      We believe that every child deserves the opportunity to dream big
+                      and reach their full potential, no matter where they come from. By
+                      breaking down barriers to education and opportunity, we aim to
+                      inspire a generation of leaders, innovators, and changemakers.
+                    </li>
+                    <li>
+                      We are committed to creating a world where no child is left behind,
+                      ensuring that every young person has the tools, support, and hope
+                      needed to build a brighter, more equitable future for themselves and
+                      their communities.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="team-area-02 pt-125 pb-20">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8 offset-xl-2">
                 <div
-                  class="section-title text-left mb-20 wow fadeInUp2 animated"
+                  class="section-title text-center mb-75 pl-50 pr-50 wow fadeInUp2 animated"
                   data-wow-delay=".1s">
                   <h6>
-                    <span><i class="fas fa-heart"></i></span> About Shriyan
+                    <span><i class="fas fa-heart"></i></span> Team Members
                   </h6>
-                  <h2>Lifting Communities Inspiring Change</h2>
+                  <h2>We Have A Small and Dedicated Team</h2>
                 </div>
-                <p class="mb-35">
-                  Shriyan Foundation, we are driven by a simple yet powerful belief: every
-                  child deserves the opportunity to dream, grow, and thrive—regardless of
-                  their background. Our mission is to empower children and young people by
-                  providing them with the essential resources they need to succeed in life
-                  and education. From school supplies and computers to sanitary pads and
-                  other basic necessities, we work to remove the barriers that hold
-                  potential back. By addressing these critical needs, we aim to create a
-                  level playing field where every young person has the tools, support, and
-                  hope needed to reach their full potential. We are not just building
-                  futures—we are nurturing tomorrow’s leaders, innovators, and change
-                  makers. Through our programs and partnerships, we are creating a world
-                  where no child is left behind, and where equity, access, and opportunity
-                  are not privileges, but rights. Join us in lighting the path forward—for
-                  a generation ready to rise.
-                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!--about-us-area end-->
-      <!--counter-area start-->
-      <section class="counter-area theme-bg pt-130 pb-60">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+            <div class="row">
               <div
-                class="counetrs mb-30 text-center wow fadeInUp2 animated"
-                data-wow-delay=".1s">
-                <div class="counetrs__icon mb-20">
-                  <i class="flaticon-social-care"></i>
+                class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
+                data-wow-delay=".2s">
+                <div class="teams white-bg mb-30">
+                  <div class="teams__thumb pos-rel mb-30">
+                    <div class="teams__thumb--img pos-rel">
+                      <img src="assets/img/team/alisha.jpeg" alt="" />
+                    </div>
+                  </div>
                 </div>
-                <h1><span class="counter">30</span></h1>
-                <p>Volunteers</p>
               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+
               <div
-                class="counetrs mb-30 text-center wow fadeInUp2 animated"
+                class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
+                data-wow-delay=".4s">
+                <div class="teams white-bg mb-30">
+                  <div class="teams__thumb pos-rel mb-30">
+                    <div class="teams__thumb--img pos-rel">
+                      <img src="assets/img/team/eric.jpeg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
+                data-wow-delay=".2s">
+                <div class="teams white-bg mb-30">
+                  <div class="teams__thumb pos-rel mb-30">
+                    <div class="teams__thumb--img pos-rel">
+                      <img src="assets/img/team/sanjay.jpeg" alt="" />
+                    </div>
+                    <div class="teams__thumb--social">
+                      <a href="about.html#">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="about.html#">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="about.html#">
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                      <a href="about.html#">
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
                 data-wow-delay=".3s">
-                <div class="counetrs__icon mb-20"><i class="flaticon-donation"></i></div>
-                <h1><span class="counter">2</span></h1>
-                <p>Global Partner</p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="counetrs mb-30 text-center wow fadeInUp2 animated"
-                data-wow-delay=".5s">
-                <div class="counetrs__icon mb-20"><i class="flaticon-charity"></i></div>
-                <h1><span class="counter">3</span></h1>
-                <p>Communities supported</p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <div
-                class="counetrs mb-30 text-center wow fadeInUp2 animated"
-                data-wow-delay=".7s">
-                <div class="counetrs__icon mb-20"><i class="flaticon-community"></i></div>
-                <h1><span class="counter">7</span></h1>
-                <p>Team Members</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--counter-area end-->
-      <!--what-we-area start-->
-      <section class="what-we-area grey-bg2 pos-rel pt-125 pb-95">
-        <div
-          class="right-help"
-          style="background-image: url(assets/img/about/group.jpg)"></div>
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-12">
-              <div class="about-wrapper we-wrapper mb-30">
-                <div
-                  class="section-title text-left mb-20 wow fadeInUp2 animated"
-                  data-wow-delay=".1s">
-                  <h6>
-                    <span><i class="fas fa-heart"></i></span> Our Mission and Vision
-                  </h6>
-                  <h2>A Concrete Help For A Better & kind World</h2>
-                </div>
-                <p class="wow fadeInUp2 animated" data-wow-delay=".2s">
-                  Our mission is to empower children and youths by providing them with the
-                  essential resources they need to succeed, including school supplies,
-                  computers, sanitary pads, and other basic necessities.
-                </p>
-                <ul
-                  class="about_list mt-30 mb-25 wow fadeInUp2 animated"
-                  data-wow-delay=".3s">
-                  <li>
-                    We believe that every child deserves the opportunity to dream big and
-                    reach their full potential, no matter where they come from. By
-                    breaking down barriers to education and opportunity, we aim to inspire
-                    a generation of leaders, innovators, and changemakers.
-                  </li>
-                  <li>
-                    We are committed to creating a world where no child is left behind,
-                    ensuring that every young person has the tools, support, and hope
-                    needed to build a brighter, more equitable future for themselves and
-                    their communities.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--what-we-area end-->
-      <!--team-area start-->
-      <section class="team-area-02 pt-125 pb-20">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 offset-xl-2">
-              <div
-                class="section-title text-center mb-75 pl-50 pr-50 wow fadeInUp2 animated"
-                data-wow-delay=".1s">
-                <h6>
-                  <span><i class="fas fa-heart"></i></span> Team Members
-                </h6>
-                <h2>We Have A Small and Dedicated Team</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
-              data-wow-delay=".2s">
-              <div class="teams white-bg mb-30">
-                <div class="teams__thumb pos-rel mb-30">
-                  <div class="teams__thumb--img pos-rel">
-                    <img src="assets/img/team/alisha.jpeg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
-              data-wow-delay=".4s">
-              <div class="teams white-bg mb-30">
-                <div class="teams__thumb pos-rel mb-30">
-                  <div class="teams__thumb--img pos-rel">
-                    <img src="assets/img/team/eric.jpeg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
-              data-wow-delay=".2s">
-              <div class="teams white-bg mb-30">
-                <div class="teams__thumb pos-rel mb-30">
-                  <div class="teams__thumb--img pos-rel">
-                    <img src="assets/img/team/sanjay.jpeg" alt="" />
-                  </div>
-                  <div class="teams__thumb--social">
-                    <a href="about.html#">
-                      <i class="fab fa-facebook-f"></i>
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="about.html#">
-                      <i class="fab fa-twitter"></i>
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="about.html#">
-                      <i class="fab fa-youtube"></i>
-                      <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="about.html#">
-                      <i class="fab fa-linkedin"></i>
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
-              data-wow-delay=".3s">
-              <div class="teams white-bg mb-30">
-                <div class="teams__thumb pos-rel mb-30">
-                  <div class="teams__thumb--img pos-rel">
-                    <img src="assets/img/team/oware.jpeg" alt="" />
-                  </div>
-                  <!-- <div class="teams__thumb--social">
+                <div class="teams white-bg mb-30">
+                  <div class="teams__thumb pos-rel mb-30">
+                    <div class="teams__thumb--img pos-rel">
+                      <img src="assets/img/team/oware.jpeg" alt="" />
+                    </div>
+                    <!-- <div class="teams__thumb--social">
                     <a href="about.html#">
                       <i class="fab fa-facebook-f"></i>
                       <i class="fab fa-facebook-f"></i>
@@ -433,297 +316,80 @@
                       <i class="fab fa-linkedin"></i>
                     </a>
                   </div> -->
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
-              data-wow-delay=".2s">
-              <div class="teams white-bg mb-30">
-                <div class="teams__thumb pos-rel mb-30">
-                  <div class="teams__thumb--img pos-rel">
-                    <img src="assets/img/team/jaana.jpeg" alt="" />
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonial-area grey-bg2 pos-rel pt-130 pb-130">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 offset-xl-3">
-              <div class="section-title text-center mb-35">
-                <h6>
-                  <span><i class="fas fa-heart"></i></span> What others are saying
-                </h6>
-                <h2>What Our Followers Say About Shriyan</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row testimonial-active-04">
-            <div class="col-xl-4 item-box">
               <div
-                class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
-                data-wow-delay=".5s">
-                <img src="assets/img/testimonial/twitter5.jpeg" alt="" width="250px" />
-
-                <img src="assets/img/testimonial/twitter4.jpeg" alt="" width="250px" />
-              </div>
-            </div>
-            <div class="col-xl-4 item-box">
-              <div
-                class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
-                data-wow-delay=".3s">
-                <img src="assets/img/testimonial/twitter.jpeg" alt="" width="250px" />
-                <img src="assets/img/testimonial/twitter2.jpeg" alt="" width="250px" />
-              </div>
-            </div>
-            <div class="col-xl-4 item-box">
-              <div
-                class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
-                data-wow-delay=".5s">
-                <img src="assets/img/testimonial/twittr3.jpeg" alt="" width="250px" />
-                <img src="assets/img/testimonial/twitter4.jpeg" alt="" width="250px" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--testimonial-area end-->
-      <!--blog-area start-->
-      <section class="blog-area pt-130 pb-75">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 offset-xl-3">
-              <div
-                class="section-title text-center mb-85 wow fadeInUp2 animated"
-                data-wow-delay=".1s">
-                <h6>
-                  <span><i class="fas fa-heart"></i></span> Latest News
-                </h6>
-                <h2>Get Our Shriyan Every News & Blog</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="col-xl-6 col-lg-6 col-md-12 wow fadeInUp2 animated"
-              data-wow-delay=".3s">
-              <div class="blog blog-03 mb-30">
-                <div class="blog__thumb mb-20">
-                  <img src="assets/img/blog/08.png" alt="" />
-                </div>
-                <div class="blog__content">
-                  <h3 class="blog-title mb-15">
-                    <a href="blog-details.html"
-                      >Experts Global Digital Accessibility Developments During Book More
-                      Appointments And Events WordPress</a
-                    >
-                  </h3>
-                  <p class="mb-15">
-                    But I must explain to you how all this mistaken idea of denouncing
-                    pleaure and praising pain was born and will give you a complete
-                  </p>
-                  <ul class="blog-author">
-                    <li>
-                      <a class="mr-30" href="about.html#">
-                        <span><i class="far fa-user-circle"></i> Loui Lopez</span></a
-                      >
-                    </li>
-                    <li><i class="far fa-calendar-alt"></i> 25 Dec 2020</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-xl-6 col-lg-6 col-md-12 wow fadeInUp2 animated"
-              data-wow-delay=".5s">
-              <div class="row">
-                <div class="col-xl-12 col-lg-6 col-md-6">
-                  <div class="row blog blog-03 align-items-center mb-30">
-                    <div class="col-xl-6">
-                      <div class="blog__thumb pos-rel">
-                        <div class="blog__thumb--img">
-                          <img src="assets/img/blog/09.png" alt="" />
-                        </div>
-                        <a class="tag" href="blog-details.html">refugee</a>
-                      </div>
-                    </div>
-                    <div class="col-xl-6">
-                      <div class="blog__content">
-                        <h3 class="blog-title mb-15">
-                          <a href="blog-details.html"
-                            >Standardizing & Beyonds Past Present Future
-                          </a>
-                        </h3>
-                        <p class="mb-15">
-                          Sed perspiciatis unde omnis iste natus error sit atem accntium
-                        </p>
-                        <ul class="blog-author">
-                          <li>
-                            <a class="mr-30" href="about.html#"
-                              ><span><i class="far fa-user-circle"></i> Raymon</span></a
-                            >
-                          </li>
-                          <li><i class="far fa-calendar-alt"></i> 25 Dec 2020</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-12 col-lg-6 col-md-6">
-                  <div class="row blog blog-03 align-items-center mb-30">
-                    <div class="col-xl-6">
-                      <div class="blog__thumb pos-rel">
-                        <div class="blog__thumb--img">
-                          <img src="assets/img/blog/10.png" alt="" />
-                        </div>
-                        <a class="tag" href="blog-details.html">refugee</a>
-                      </div>
-                    </div>
-                    <div class="col-xl-6">
-                      <div class="blog__content">
-                        <h3 class="blog-title mb-15">
-                          <a href="blog-details.html"
-                            >Creating To Continuous Integration Test Work</a
-                          >
-                        </h3>
-                        <p class="mb-15">
-                          Sed perspiciatis unde omnis iste natus error sit atem accntium
-                        </p>
-                        <ul class="blog-author">
-                          <li>
-                            <a class="mr-30" href="about.html#"
-                              ><span><i class="far fa-user-circle"></i> Danish</span></a
-                            >
-                          </li>
-                          <li><i class="far fa-calendar-alt"></i> 25 Dec 2020</li>
-                        </ul>
-                      </div>
+                class="col-xl-3 col-lg-6 col-md-6 mb-30 wow fadeInUp animated"
+                data-wow-delay=".2s">
+                <div class="teams white-bg mb-30">
+                  <div class="teams__thumb pos-rel mb-30">
+                    <div class="teams__thumb--img pos-rel">
+                      <img src="assets/img/team/jaana.jpeg" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!--blog-area end-->
-    </main>
-    <!--footer-area start-->
-    <footer
-      class="footer-area black-bg pos-rel pt-80 pb-50"
-      style="background-image: url(assets/img/bg/02.png.html)">
-      <div class="container">
-        <div class="row mb-20">
-          <div
-            class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
-            data-wow-delay=".1s">
-            <div class="footer__widget mb-30">
-              <h5 class="semi-02-title mb-25">About Shriyan</h5>
-              <p>
-                Shriyan Foundation empowers children and youth by providing essential
-                resources like school supplies, computers, sanitary pads, and more.
-              </p>
-              <div class="footer-log mt-25">
-                <a href="index.html" class="footer-logo mb-30"
-                  ><img src="assets/img/logo/weblogo.png" alt="" width="300px"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
-            data-wow-delay=".3s">
-            <div class="footer__widget fot_abot mb-30 pl-40">
-              <h5 class="semi-02-title mb-25">Quick Link</h5>
-              <ul class="fot-list">
-                <li><a href="contact.html#">Our Organization</a></li>
-                <li><a href="contact.html#">Become a Volunteer</a></li>
-                <li><a href="contact.html#">Case Studies</a></li>
+        </section>
 
-                <li><a href="contact.html#">Recent Events</a></li>
-              </ul>
+        <section class="testimonial-area grey-bg2 pos-rel pt-130 pb-130">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 offset-xl-3">
+                <div class="section-title text-center mb-35">
+                  <h6>
+                    <span><i class="fas fa-heart"></i></span> What others are saying
+                  </h6>
+                  <h2>What Our Followers Say About Shriyan</h2>
+                </div>
+              </div>
             </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
-            data-wow-delay=".5s">
-            <div class="footer__widget fot_abot mb-25">
-              <h5 class="semi-02-title mb-25">Photo Gallery</h5>
-              <div class="insta-feed">
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1090.jpg" alt="" width="50px" />
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1182 2.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1152 2.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1104.jpg" alt="" width="50px" />
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1090.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1263.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1101.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
-                <a class="insta" href="contact.html#">
-                  <img src="assets/img/gallery/IMG_1278.jpg" alt="" width="50px" />
-                  <span><i class="far fa-plus"></i></span>
-                </a>
+            <div class="row testimonial-active-04">
+              <div class="col-xl-4 item-box">
+                <div
+                  class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
+                  data-wow-delay=".5s">
+                  <img src="assets/img/testimonial/twitter5.jpeg" alt="" width="250px" />
+
+                  <img src="assets/img/testimonial/twitter4.jpeg" alt="" width="250px" />
+                </div>
+              </div>
+              <div class="col-xl-4 item-box">
+                <div
+                  class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
+                  data-wow-delay=".3s">
+                  <img src="assets/img/testimonial/twitter.jpeg" alt="" width="250px" />
+                  <img src="assets/img/testimonial/twitter2.jpeg" alt="" width="250px" />
+                </div>
+              </div>
+              <div class="col-xl-4 item-box">
+                <div
+                  class="testimonial-item white-bg pos-rel wow fadeInUp2 animated"
+                  data-wow-delay=".5s">
+                  <img src="assets/img/testimonial/twittr3.jpeg" alt="" width="250px" />
+                  <img src="assets/img/testimonial/twitter4.jpeg" alt="" width="250px" />
+                </div>
               </div>
             </div>
           </div>
-          <div
-            class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
-            data-wow-delay=".7s">
-            <div class="footer__widget fot__subscribe mb-30">
-              <h5 class="semi-02-title mb-25">Our Newsletters</h5>
-              <p class="mb-25">
-                But I must explain to you how all mistaken idea denouncing
-              </p>
-              <div class="form-area mb-30">
-                <form action="https://www.devsnews.com/template/Shriyan/Shriyan/form.php">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Your Email" />
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--scroll-target-btn-->
-        <!-- <a href="#top-menu" class="scroll-target"><i class="far fa-arrow-up"></i></a> -->
-        <!--scroll-target-btn-->
-        <div class="copy-right-area copy-area-02 pt-30">
-          <div class="row align-items-center">
-            <div class="col-xl-12">
-              <div class="copyright text-center">
-                <p>Copyright © 2025, <span>Shriyan</span>.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--footer-area end-->
+        </section>
+
+        <site-news></site-news>
+      </main>
+      <site-footer></site-footer>
+    </div>
 
     <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="components/header-component.js"></script>
+    <script src="components/footer-component.js"></script>
+    <script src="components/sidebar-components.js"></script>
+    <script src="components/news-component.js"></script>
+    <script>
+      new Vue({ el: '#app' });
+    </script>
     <script
       data-cfasync="false"
       src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

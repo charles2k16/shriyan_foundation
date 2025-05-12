@@ -39,7 +39,7 @@ Vue.component('site-footer', {
               class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
               data-wow-delay=".5s">
               <div class="footer__widget fot_abot mb-25">
-                <h5 class="semi-02-title mb-25">Photo Gallery</h5>
+
                 <div class="insta-feed">
                   <a class="insta" href="contact.html#">
                     <img src="assets/img/gallery/IMG_1090.jpg" alt="" width="50px" />
