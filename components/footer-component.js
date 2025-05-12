@@ -20,7 +20,7 @@ Vue.component('site-footer', {
               class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp2 animated"
               data-wow-delay=".1s">
               <div class="footer__widget mb-30">
-                <h5 class="semi-02-title mb-25">About Shriyan</h5>
+                <h5 class="semi-02-title mb-25">About Shriyan Foundation</h5>
                 <p>
                   Shriyan Foundation empowers children and youth by providing essential
                   resources like school supplies, computers, sanitary pads, and more.
