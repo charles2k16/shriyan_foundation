@@ -3,28 +3,22 @@ Vue.component('site-news', {
     return {
       blogs: [
         {
-          image: 'assets/img/blog/08.png',
-          title: 'Experts Global Digital Accessibility Developments',
-          link: '',
-          excerpt: 'But I must explain to you how all this mistaken idea...',
-          date: '25 Dec 2020',
-          tag: null,
-        },
-        {
-          image: 'assets/img/blog/09.png',
-          title: 'Standardizing & Beyonds Past Present Future',
-          link: '',
-          excerpt: 'Sed perspiciatis unde omnis iste natus error...',
-          date: '25 Dec 2020',
-          tag: 'refugee',
+          image: 'assets/img/gallery/IMG_1188.jpg',
+          title: 'Empowering the Future with Shriyan Foundation',
+          link: '#',
+          excerpt:
+            'Shriyan Foundation is a Ghana-based NGO committed to supporting underprivileged children and youth. Our mission is to empower them by providing school supplies, computers, sanitary pads, and other basic necessities that help them succeed academically and personally.',
+          date: '4 May 2025',
+          tag: 'Blog',
         },
         {
           image: 'assets/img/blog/10.png',
-          title: 'Creating To Continuous Integration Test Work',
+          title: 'The Heart Behind Shriyan Foundation',
           link: '',
-          excerpt: '',
-          date: '25 Dec 2020',
-          tag: 'funding',
+          excerpt:
+            'What started as a simple desire to help has grown into something truly meaningful — Shriyan Foundation. Born out of compassion and a belief in equal opportunity, our foundation is dedicated to supporting children and youth who often go unnoticed.',
+          date: '4 May 2025',
+          tag: 'Projects',
         },
       ],
     };

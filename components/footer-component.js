@@ -48,17 +48,17 @@ Vue.component('site-footer', {
               data-wow-delay=".7s">
               <div class="footer__widget fot__subscribe mb-30">
 
-    <div class="header-social">
-                <a href="blog-details.html#" style="font-size: 30px"><i class="fab fa-facebook-f"></i></a>
+              <div class="header-social">
+                <a href="https://www.facebook.com/profile.php?id=61574752150906&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" style="font-size: 30px"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/shriyanfoundation_global?igsh=aDV1dHA0ZTV3Zm84" target="_blank" style="font-size: 30px"><i class="fab fa-instagram"></i></a>
                 <a href="https://youtube.com/@shriyanfoundationglobal?si=FdGsikwSrPpLz9ka" target="_blank" style="font-size: 30px"><i class="fab fa-youtube"></i></a>
-                <a href="blog-details.html#" style="font-size: 30px"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@withyoualwaysfoundation?_t=ZS-8wIgqjtFMck&_r=1" target="_blank" style="font-size: 30px"><img src="assets/img/logo/tik-tok.png" width="27px"></a>
               </div>
-  <br />
+              <br />
 
-                  <div class="copyright text-center">
-                  <p>Copyright © 2025, <span>Shriyan Foundation</span>.</p>
-                </div>
+              <div class="copyright text-center">
+                <p>Copyright © 2025, <span>Shriyan Foundation(v3)</span>.</p>
+              </div>
               </div>
             </div>
           </div>
