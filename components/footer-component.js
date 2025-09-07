@@ -57,7 +57,7 @@ Vue.component('site-footer', {
               <br />
 
               <div class="copyright text-center">
-                <p>Copyright © 2025, <span>Shriyan Foundation(v3)</span>.</p>
+                <p>Copyright © 2025, <span>Shriyan Foundation</span>.</p>
               </div>
               </div>
             </div>

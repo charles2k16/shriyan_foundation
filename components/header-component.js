@@ -20,7 +20,7 @@ Vue.component('site-header', {
                   /></a>
                 </div>
               </div>
-              <div class="col-xl-7 col-lg-8 d-none d-lg-block text-right">
+              <div class="col-xl-9 col-lg-8 d-none d-lg-block text-right">
                 <div class="main-menu main-menu-02 pr-50 d-none d-lg-block">
                   <nav>
                     <ul>
@@ -28,11 +28,7 @@ Vue.component('site-header', {
                         <a class="active" href="index.html#">Home </a>
                       </li>
                       <li><a href="about.html">About</a></li>
-                      <li>
-                        <a href="index.html#"
-                          >News and Events <i class="far fa-chevron-down"></i
-                        ></a>
-                      </li>
+              
                       <li>
                         <a href="volunteer.html">Get Involved </a>
                       </li>
@@ -43,7 +39,7 @@ Vue.component('site-header', {
                 </div>
               </div>
               <div
-                class="col-xl-3 col-lg-1 col-md-6 col-6 d-flex align-items-center justify-content-end">
+                class="col-xl-1 col-lg-1 col-md-6 col-6 d-flex align-items-center justify-content-end">
                 <div class="hamburger-menu mr-20 d-md-block d-lg-none">
                   <a href="javascript:void(0);">
                     <i class="far fa-bars"></i>
