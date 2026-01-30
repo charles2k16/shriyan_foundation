@@ -32,6 +32,8 @@ Vue.component('site-header', {
                       <li>
                         <a href="volunteer.html">Get Involved </a>
                       </li>
+
+                      <li><a href="blog.html">Blog</a></li>
                     
                       <li><a href="contact.html">Contact</a></li>
                     </ul>

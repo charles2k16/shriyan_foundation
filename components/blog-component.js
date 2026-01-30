@@ -1,4 +1,4 @@
-Vue.component('site-news', {
+Vue.component('site-blog', {
   data() {
     return {
       blogs: [], // will be filled with WordPress posts
@@ -30,13 +30,13 @@ Vue.component('site-news', {
         <div class="row">
           <div class="col-xl-6 offset-xl-3">
             <div class="section-title text-center mb-85">
-              <h6><span><i class="fas fa-heart"></i></span> Latest News</h6>
-              <h2>Get Our Shriyan Foundation News & Events</h2>
+              <h6><span><i class="fas fa-heart"></i></span> Our Blog</h6>
+              <h2>Latest Posts from Shriyan Foundation</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div v-for="(blog, index) in blogs" :key="index" class="col-xl-6 col-lg-6 col-md-12">
+          <div v-for="(blog, index) in blogs" :key="index" class="col-xl-4 col-lg-4 col-md-6">
             <div class="blog blog-03 mb-30">
               <div class="blog__thumb mb-20">
                 <img :src="blog.image" alt="" />
